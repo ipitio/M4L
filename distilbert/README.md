@@ -1,4 +1,4 @@
-# sentiment.md
+# sentiment.ipynb
 
 In this notebook, we use language models to predict the sentiment of a given movie review. The dataset is sampled from the [IMDB dataset of 50k movie reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews). The sentences are sampled to a smaller set to help with quicker computation on Colab. The data contains a review and an associated _positive_ or _negative_ sentiment label. The training, validation, and test data is used to fine-tune the models, select the best model while training, and measure performance, respectively. To perform this task, we use a pre-trained DistilBERT model, a BERT-based language model that is 40% smaller, 60% faster, but retains 97% of BERT's performance, from Hugging Face, as follows:
 
