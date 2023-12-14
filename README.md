@@ -1,5 +1,7 @@
 # Models4Learning
 
+![artwork](evaluation.png)
+
 M4L is a collection of analyses about various machine learning models. The goal is to provide a comprehensive overview of the models, their applications, and their implementations. The analyses are written in Jupyter notebooks.
 
 ## Models
